@@ -1,0 +1,226 @@
+[INFO  - 2018-07-11T06:22:19.463Z] GhostDriver - Main - running on port 63757
+[INFO  - 2018-07-11T06:22:23.286Z] Session [c5e296c0-84d2-11e8-9710-9fb0a78cda2e] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-07-11T06:22:23.286Z] Session [c5e296c0-84d2-11e8-9710-9fb0a78cda2e] - page.customHeaders:  - {}
+[INFO  - 2018-07-11T06:22:23.287Z] Session [c5e296c0-84d2-11e8-9710-9fb0a78cda2e] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-07-11T06:22:23.287Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: c5e296c0-84d2-11e8-9710-9fb0a78cda2e
+[ERROR - 2018-07-11T06:22:35.705Z] Session [c5e0c200-84d2-11e8-8b90-bbad42db4ee5] - page.onError - msg: TypeError: null is not an object (evaluating '(o=t.match(/Version\/[\d.]*/))[0]')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:22:35.706Z] Session [c5e0c200-84d2-11e8-8b90-bbad42db4ee5] - page.onError - stack:
+  n (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:12374)
+  (anonymous function) (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:12374)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:22:36.049Z] Session [c5e0c200-84d2-11e8-8b90-bbad42db4ee5] - page.onError - msg: ReferenceError: Can't find variable: PPCLoudplayer
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:22:36.050Z] Session [c5e0c200-84d2-11e8-8b90-bbad42db4ee5] - page.onError - stack:
+  initPlayer (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:7724)
+  loadVideo (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:2799)
+  autoPlayer (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:7755)
+  Ready (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:7963)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:22:36.229Z] Session [c5e0c200-84d2-11e8-8b90-bbad42db4ee5] - page.onError - msg: TypeError: undefined is not a constructor (evaluating '$("#sncity").mCity')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:22:36.229Z] Session [c5e0c200-84d2-11e8-8b90-bbad42db4ee5] - page.onError - stack:
+  initCityButton (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:8775)
+  initialize (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:8730)
+  (anonymous function) (https://product.suning.com/0070089715/128829574.html:451)
+  o (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+  fireWith (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+  ready (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+  B (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:02.861Z] Session [c5e296c0-84d2-11e8-9710-9fb0a78cda2e] - page.onError - msg: TypeError: null is not an object (evaluating '(o=t.match(/Version\/[\d.]*/))[0]')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:02.861Z] Session [c5e296c0-84d2-11e8-9710-9fb0a78cda2e] - page.onError - stack:
+  n (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:12374)
+  (anonymous function) (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:12374)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:03.163Z] Session [c5e296c0-84d2-11e8-9710-9fb0a78cda2e] - page.onError - msg: ReferenceError: Can't find variable: PPCLoudplayer
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:03.163Z] Session [c5e296c0-84d2-11e8-9710-9fb0a78cda2e] - page.onError - stack:
+  initPlayer (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:7724)
+  loadVideo (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:2799)
+  autoPlayer (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:7755)
+  Ready (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:7963)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:03.295Z] Session [c5e296c0-84d2-11e8-9710-9fb0a78cda2e] - page.onError - msg: TypeError: undefined is not a constructor (evaluating '$("#sncity").mCity')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:03.295Z] Session [c5e296c0-84d2-11e8-9710-9fb0a78cda2e] - page.onError - stack:
+  initCityButton (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:8775)
+  initialize (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:8730)
+  (anonymous function) (https://product.suning.com/0070089715/123503011.html:451)
+  o (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+  fireWith (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+  ready (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+  B (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:24.111Z] Session [c5e073e0-84d2-11e8-a8f6-f10f183edc47] - page.onError - msg: TypeError: null is not an object (evaluating '(o=t.match(/Version\/[\d.]*/))[0]')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:24.111Z] Session [c5e073e0-84d2-11e8-a8f6-f10f183edc47] - page.onError - stack:
+  n (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:12374)
+  (anonymous function) (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:12374)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:24.416Z] Session [c5e073e0-84d2-11e8-a8f6-f10f183edc47] - page.onError - msg: ReferenceError: Can't find variable: PPCLoudplayer
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:24.417Z] Session [c5e073e0-84d2-11e8-a8f6-f10f183edc47] - page.onError - stack:
+  initPlayer (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:7724)
+  loadVideo (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:2799)
+  autoPlayer (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:7755)
+  Ready (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:7963)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:24.615Z] Session [c5e073e0-84d2-11e8-a8f6-f10f183edc47] - page.onError - msg: TypeError: undefined is not a constructor (evaluating '$("#sncity").mCity')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:24.615Z] Session [c5e073e0-84d2-11e8-a8f6-f10f183edc47] - page.onError - stack:
+  initCityButton (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:8775)
+  initialize (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:8730)
+  (anonymous function) (https://product.suning.com/0070089715/149316948.html:451)
+  o (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+  fireWith (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+  ready (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+  B (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:22:55.236Z] Session [c5e04cd0-84d2-11e8-8b72-6f000097642c] - page.onError - msg: TypeError: null is not an object (evaluating '(o=t.match(/Version\/[\d.]*/))[0]')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:22:55.236Z] Session [c5e04cd0-84d2-11e8-8b72-6f000097642c] - page.onError - stack:
+  n (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:12374)
+  (anonymous function) (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:12374)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:22:55.438Z] Session [c5e04cd0-84d2-11e8-8b72-6f000097642c] - page.onError - msg: ReferenceError: Can't find variable: PPCLoudplayer
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:22:55.438Z] Session [c5e04cd0-84d2-11e8-8b72-6f000097642c] - page.onError - stack:
+  initPlayer (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:7724)
+  loadVideo (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:2799)
+  autoPlayer (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:7755)
+  Ready (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:7963)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:22:55.554Z] Session [c5e04cd0-84d2-11e8-8b72-6f000097642c] - page.onError - msg: TypeError: undefined is not a constructor (evaluating '$("#sncity").mCity')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:22:55.554Z] Session [c5e04cd0-84d2-11e8-8b72-6f000097642c] - page.onError - stack:
+  initCityButton (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:8775)
+  initialize (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:8730)
+  (anonymous function) (https://product.suning.com/0070089715/128787514.html:451)
+  o (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+  fireWith (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+  ready (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+  B (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:16.134Z] Session [c5e04cd0-84d2-11e8-8b72-6f000097642c] - page.onError - msg: TypeError: null is not an object (evaluating '(o=t.match(/Version\/[\d.]*/))[0]')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:16.134Z] Session [c5e04cd0-84d2-11e8-8b72-6f000097642c] - page.onError - stack:
+  n (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:12374)
+  (anonymous function) (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:12374)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:16.528Z] Session [c5e04cd0-84d2-11e8-8b72-6f000097642c] - page.onError - msg: ReferenceError: Can't find variable: PPCLoudplayer
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:16.528Z] Session [c5e04cd0-84d2-11e8-8b72-6f000097642c] - page.onError - stack:
+  initPlayer (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:7724)
+  loadVideo (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:2799)
+  autoPlayer (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:7755)
+  Ready (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:7963)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:16.730Z] Session [c5e04cd0-84d2-11e8-8b72-6f000097642c] - page.onError - msg: TypeError: undefined is not a constructor (evaluating '$("#sncity").mCity')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:16.730Z] Session [c5e04cd0-84d2-11e8-8b72-6f000097642c] - page.onError - stack:
+  initCityButton (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:8775)
+  initialize (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:8730)
+  (anonymous function) (https://product.suning.com/0070089086/132419992.html:460)
+  o (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+  fireWith (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+  ready (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+  B (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:19.473Z] Session [c5e04cd0-84d2-11e8-8b72-6f000097642c] - page.onError - msg: TypeError: null is not an object (evaluating '(o=t.match(/Version\/[\d.]*/))[0]')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:19.474Z] Session [c5e04cd0-84d2-11e8-8b72-6f000097642c] - page.onError - stack:
+  n (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/[ERROR - 2018-07-11T06:23:19.965Z] Session [c5e0c200-84d2-11e8-8b90-bbad42db4ee5] - page.onError - msg: TypeError: null is not an object (evaluating '(o=t.match(/Version\/[\d.]*/))[0]')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:19.965Z] Session [c5e0c200-84d2-11e8-8b90-bbad42db4ee5] - page.onError - stack:
+  n (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:12374)
+  (anonymous function) (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:12374)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:20.359Z] Session [c5e0c200-84d2-11e8-8b90-bbad42db4ee5] - page.onError - msg: ReferenceError: Can't find variable: PPCLoudplayer
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:20.359Z] Session [c5e0c200-84d2-11e8-8b90-bbad42db4ee5] - page.onError - stack:
+  initPlayer (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:7724)
+  loadVideo (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:2799)
+  autoPlayer (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:7755)
+  Ready (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:7963)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:20.510Z] Session [c5e0c200-84d2-11e8-8b90-bbad42db4ee5] - page.onError - msg: TypeError: undefined is not a constructor (evaluating '$("#sncity").mCity')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:20.510Z] Session [c5e0c200-84d2-11e8-8b90-bbad42db4ee5] - page.onError - stack:
+  initCityButton (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:8775)
+  initialize (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:8730)
+  (anonymous function) (https://product.suning.com/0000000000/687142723.html:424)
+  o (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+  fireWith (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+  ready (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.mi[ERROR - 2018-07-11T06:23:22.693Z] Session [c5e04cd0-84d2-11e8-8b72-6f000097642c] - page.onError - msg: TypeError: null is not an object (evaluating '(o=t.match(/Version\/[\d.]*/))[0]')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:22.693Z] Session [c5e04cd0-84d2-11e8-8b72-6f000097642c] - page.onError - stack:
+  n (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/[ERROR - 2018-07-11T06:23:23.021Z] Session [c5e0c200-84d2-11e8-8b90-bbad42db4ee5] - page.onError - msg: TypeError: null is not an object (evaluating '(o=t.match(/Version\/[\d.]*/))[0]')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:23.021Z] Session [c5e0c200-84d2-11e8-8b90-bbad42db4ee5] - page.onError - stack:
+  n (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:12374)
+  (anonymous function) (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:12374)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:23.296Z] Session [c5e0c200-84d2-11e8-8b90-bbad42db4ee5] - page.onError - msg: ReferenceError: Can't find variable: PPCLoudplayer
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:23.296Z] Session [c5e0c200-84d2-11e8-8b90-bbad42db4ee5] - page.onError - stack:
+  initPlayer (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:7724)
+  loadVideo (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:2799)
+  autoPlayer (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:7755)
+  Ready (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:7963)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:23.431Z] Session [c5e0c200-84d2-11e8-8b90-bbad42db4ee5] - page.onError - msg: TypeError: undefined is not a constructor (evaluating '$("#sncity").mCity')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-11T06:23:23.431Z] Session [c5e0c200-84d2-11e8-8b90-bbad42db4ee5] - page.onError - stack:
+  initCityButton (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:8775)
+  initialize (https://res.suning.cn/??/project/pdsWeb/pc2017/template-min.js,/project/pdsWeb/pc2017/iFourth-min.js,/project/pdsWeb/pc2017/itemComDataLoadNew-min.js,/project/pdsWeb/pc2017/inititem-min.js,/project/pdsWeb/pc2017/Mp4player.min20180408.js,/public/v5/mod/sfeCity/1.0.1/SFE.city.js,/project/crdnode/common/tingyun.js?v=2018062801:8730)
+  (anonymous function) (https://product.suning.com/0000000000/686906846.html:424)
+  o (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+  fireWith (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+  ready (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+  B (https://res.suning.cn/??/public/v3/js/jquery.js,/public/v3/js/sn_lazyload.js,/public/v3/js/lazyelem.min.js,/public/v3/js/SFE.base.min.js,/public/v3/js/search.min.js,/public/sidebar/build/js/sn-sidebar.min.js,/project/yunxin/js/chatCompat_mini.js,/javascript/sn_da/sa_click.js?v=2018052301:3)
+
+  phantomjs://platform/console++.js:263 in error

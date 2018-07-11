@@ -1,0 +1,7 @@
+dict = {}
+dict['category'] = {dict,'category',{})
+dict['category'][2]['commodity'] = (dict,dict['category'],set([(dict,dict['category'],'commodity','path')]))
+for item in dict['category'][2]['commodity'][2]:
+	item[3] = 'absolutepath'
+	with open('absolutepath',w) as f:
+		write(set(['url']))

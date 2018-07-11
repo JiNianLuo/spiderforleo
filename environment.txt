@@ -1,0 +1,17 @@
+#1
+pip install bs4
+
+#2
+pip install selenium
+
+#3
+download phantomJS manually at C:\\
+
+#4
+pip install requests
+
+#5
+export environment variables of python to system path
+in order to run cmd in a higher level of mandatory integrity level
+given a dictionary at medium mic level, this can be ignored.
+
